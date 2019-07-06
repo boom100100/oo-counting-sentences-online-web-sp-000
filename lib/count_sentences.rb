@@ -20,6 +20,6 @@ class String
     array = self.split(/[(\?)(\.)(\!)]{1}/)
     array.delete("")
     puts array
-    count
+    array.size
   end
 end
