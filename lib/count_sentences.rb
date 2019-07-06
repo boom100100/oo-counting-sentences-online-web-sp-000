@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-    self.end_with?(/\.\?\!/)
+    count = 0
+    
+    count
   end
 end
