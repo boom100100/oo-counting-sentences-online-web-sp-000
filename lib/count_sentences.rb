@@ -18,7 +18,7 @@ class String
     count = 0
 
     array = self.split(/[(\?)(\.)(\!)]{1}/)
-    array.delete(" ")
+    array.delete("")
     puts array
     count
   end
